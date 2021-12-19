@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 17 20:07:32 2019
-
 import pandas as pd
 ozone = pd.read_csv("ozone.csv")
 ozone = ozone.drop(["Unnamed: 0"],axis=1)

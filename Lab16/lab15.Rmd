@@ -1,0 +1,35 @@
+---
+title: "Lab 15"
+output:
+  word_document: default
+  html_notebook: default
+---
+
+```{r}
+x=rnorm(15)
+x
+```
+```{r}
+y=2*x+rnorm(15)
+y
+```
+```{r}
+model=lm(y~x)
+predict(model)
+```
+```{r}
+sum(abs(predict(model)-y))/15
+```
+```{r}
+data("airquality")
+names(airquality)
+```
+```{r}
+plot(Ozone~Solar.R,data=airquality)
+model1=lm(Ozone~Solar.R,data=airquality)
+abline(model1,col="red")
+```
+```{r}
+summary(model1)
+```
+

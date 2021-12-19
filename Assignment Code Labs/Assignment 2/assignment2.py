@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Feb 19 15:40:24 2017
-
-@author: xfang13
-"""
-
 #Problem 1: (6 points)
 #Create a list with 999 randomly generated 
 #integers, each of which is generated in between -1000 and 1000. 
